@@ -1,0 +1,35 @@
+body {
+  background-color: #3498db;
+  color: #fff;
+  font-family: 'Amatic SC', cursive;
+}
+body a {
+  color: #f1c40f;
+}
+body a:hover {
+  color: #f1c40f;
+  text-decoration: underline;
+}
+body header {
+  text-align: center;
+  padding-top: 3%;
+}
+body section {
+  text-align: center;
+  margin-top: 8%;
+  font-size: 23px;
+}
+body section h1 {
+  font-size: 8em;
+  font-weight: bold;
+}
+body section h2 {
+  font-size: 1.5em;
+}
+body section hr {
+  width: 90%;
+  max-width: 200px;
+  margin: 20px auto;
+  border-top-width: 2px;
+  border-style: dotted;
+}
