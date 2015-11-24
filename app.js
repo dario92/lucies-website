@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(methodOverride('X-HTTP-Method-Override'));
 
 // static server
-app.use( express.static( 'public' ) );
+app.use( express.static( __dirname + '/public' ) );
 
 // app router
 require('./routes')( app );
