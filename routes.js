@@ -1,9 +1,8 @@
 // routes for the sites
 module.exports = function( app ){
-
 	// set the directory view and
 	// the tempalte engine
-	app.set('views', 'views');
+	app.set('views', __dirname + '/views');
 	app.set('view engine', 'jade');
 
 
