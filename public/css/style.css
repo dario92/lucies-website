@@ -230,6 +230,13 @@ section#about {
   background: #16262e;
   position: relative;
 }
+
+@media (max-width: 750px) {
+  section#about .copy br {
+      display: none;
+  }
+}
+
 section#work {
   background: #fff;
   color: #595958;
