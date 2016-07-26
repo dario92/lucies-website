@@ -3,6 +3,52 @@
   var projects;
 
   projects = {
+    karen: {
+      title: "Projects for Karen Millen",
+      description: "Different projects I have been working on for the company Karen Millen. For example design of new responsive website. (Images of other projects coming soon.)",
+      timesclae: "1 Month",
+      media: [
+        {
+          url: '/img/projects/karen/1.jpg',
+          title: 'Karen Millen Website',
+          desc: 'Homepage'
+        }
+      ]
+    },
+    kalvei: {
+      title: "New Identity for Kalvei, s.r.o.",
+      description: "All-new branding identity includes new logo, website, business cards, car stickers and many more projects. (Images of other projects coming soon.)",
+      timesclae: "2 Months",
+      media: [
+        {
+          url: '/img/projects/kalvei/1.jpg',
+          title: 'New Kalvei\'s Website',
+          desc: 'Homepage on desktop'
+        },
+        {
+          url: '/img/projects/kalvei/2.jpg',
+          title: 'New Kalvei\'s Website on other devices',
+          desc: 'Products page tablet & homepage on mobile'
+        }
+      ]
+    },
+    kuba: {
+      title: "Responsive Portfolio for Jakub Kalina",
+      description: "Project created for literary translator. I created it at General Assembly Front-End Developer Course. Website is designed and also built by me.",
+      timesclae: "Design: 3 Hours | Developing: 5 days",
+      media: [
+        {
+          url: '/img/projects/kuba/1.jpg',
+          title: 'Digital Portfolio for Jakub Kalina',
+          desc: 'Website on desktop'
+        },
+        {
+          url: '/img/projects/kuba/2.jpg',
+          title: 'Digital Portfolio for Jakub Kalina',
+          desc: 'Website on other devices'
+        }
+      ]
+    },
     fashion: {
       title: "Fashion Campaign",
       description: "An identity, website and roll out for \"Fashion Form Milan\" an event showcasing the best in contemporary fashion design. ",
